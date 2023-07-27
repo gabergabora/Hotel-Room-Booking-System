@@ -10,7 +10,7 @@
 const fs = require('fs');
 const appRoot = require('app-root-path');
 const { errorResponse, successResponse } = require('../configs/app.response');
-const User = require('../models/user.model');
+const User = require('../models/user.model');         
 const logger = require('../middleware/winston.logger');
 const MyQueryHelper = require('../configs/api.feature');
 
